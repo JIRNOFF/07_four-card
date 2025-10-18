@@ -2,4 +2,153 @@
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
+:root {
+    --Red: hsl(0, 78%, 62%);
+    --Cyan: hsl(180, 62%, 55%);
+    --Orange: hsl(34, 97%, 64%);
+    --Blue: hsl(212, 86%, 64%);
+}
 
+h2, p {
+    margin: 0;
+}
+
+/*div {
+    border: solid 1px;
+}*/
+
+body {
+    font-family: "Poppins", sans-serif;
+    color: #4c4a5f;
+    margin: 0;
+    padding: 0;
+}
+
+.cards {
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+hr {
+    margin: 0;
+    border: solid 2px;
+}
+
+#hr-1 {
+    color: var(--Cyan);
+}
+#hr-2 {
+    color: var(--Red);
+}
+#hr-3 {
+    color: var(--Orange);
+}
+#hr-4 {
+    color: var(--Blue);
+}
+
+.header_container {
+    text-align: center;
+    width: 90%;
+    max-width: 510px;
+    margin: 20px auto;
+}
+
+.head-1 {
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+.head-2 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.head-3 {
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+h2 {
+    margin: 20px 0 5px 0;
+    font-size: 1.1em;
+}
+
+.card_main_conteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.card-w {
+    width: 30%;
+    margin: 0 10px;
+}
+
+.cards {
+    box-shadow: 5px 5px 10px rgba(35, 81, 87, 0.2);
+}
+
+.card_3 {
+    margin-top: 20px;
+}
+
+.card_text {
+    width: 80%;
+    margin: auto;    
+}
+
+.card_text p {
+    font-size: 0.8em;
+}
+
+img {
+    display: block;
+    margin: 30px 30px 40px auto;
+}
+
+@media (max-width: 800px) {
+    .card_text {
+        width: 90%;
+        margin: auto;    
+}
+
+@media (max-width: 700px) {
+    .card-w {
+        margin: 0 5px;
+    }
+    
+}
+
+@media (max-width: 500px) {
+    .card_main_conteiner {
+        flex-direction: column;
+    }
+    .card-w {
+        width: 90%;
+        margin-bottom: 20px;
+    }        
+    .head-1 {
+        font-size: 1.5rem;
+        font-weight: 200;
+    }
+    .head-2 {
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    
+}
+
+@media (max-width: 350px) {    
+    .card-w {
+        width: 95%;
+    }        
+    img {
+        margin: 30px 30px 30px auto;
+    }
+}
+}
