@@ -111,6 +111,10 @@ img {
     margin: 30px 30px 40px auto;
 }
 
+footer {
+    margin-top: 20px;
+}
+
 @media (max-width: 800px) {
     .card_text {
         width: 90%;
